@@ -7,11 +7,11 @@
 
 ####使用
 ```Objective-C
-
-_plotView = [[XRKLinePlotView alloc] initWithFrame:CGRectMake(0, 0, 320, 300)];
-    _plotView.maxNum = 500.0;
-    _plotView.minNum = 0.0;
-    _plotView.dataArray = _dataArray;
-    [self.view addSubview:_plotView];
+    
+    XRKLinePlotView * plotView = [[XRKLinePlotView alloc] initWithFrame:CGRectMake(0, 0, 320, 300)];
+    plotView.maxNum = 500.0;
+    plotView.minNum = 0.0;
+    plotView.dataArray = _dataArray;
+    [self.view addSubview:plotView];
 
 ```
