@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01E2548A1CC9D4F3004D7FA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E254891CC9D4F3004D7FA2 /* main.m */; };
+		01E2548D1CC9D4F3004D7FA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E2548C1CC9D4F3004D7FA2 /* AppDelegate.m */; };
+		01E254901CC9D4F3004D7FA2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E2548F1CC9D4F3004D7FA2 /* ViewController.m */; };
+		01E254931CC9D4F3004D7FA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01E254911CC9D4F3004D7FA2 /* Main.storyboard */; };
+		01E254951CC9D4F3004D7FA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01E254941CC9D4F3004D7FA2 /* Assets.xcassets */; };
+		01E254981CC9D4F3004D7FA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01E254961CC9D4F3004D7FA2 /* LaunchScreen.storyboard */; };
+		01E254A31CC9D4F3004D7FA2 /* XRKLinePlot_masterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E254A21CC9D4F3004D7FA2 /* XRKLinePlot_masterTests.m */; };
+		01E254AE1CC9D4F3004D7FA2 /* XRKLinePlot_masterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E254AD1CC9D4F3004D7FA2 /* XRKLinePlot_masterUITests.m */; };
+		01E254C41CC9D606004D7FA2 /* XRKLinePlotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E254C31CC9D606004D7FA2 /* XRKLinePlotView.m */; };
+		01E254C71CC9D734004D7FA2 /* XRKLinePlotModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E254C61CC9D734004D7FA2 /* XRKLinePlotModel.m */; };
+		01E254CA1CC9D75D004D7FA2 /* ScrollKLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E254C91CC9D75D004D7FA2 /* ScrollKLineViewController.m */; };
+		01E254CE1CC9FAAC004D7FA2 /* NSString+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E254CD1CC9FAAC004D7FA2 /* NSString+Common.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01E2549F1CC9D4F3004D7FA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01E2547D1CC9D4F3004D7FA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01E254841CC9D4F3004D7FA2;
+			remoteInfo = "XRKLinePlot-master";
+		};
+		01E254AA1CC9D4F3004D7FA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01E2547D1CC9D4F3004D7FA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01E254841CC9D4F3004D7FA2;
+			remoteInfo = "XRKLinePlot-master";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01E254851CC9D4F3004D7FA2 /* XRKLinePlot-master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XRKLinePlot-master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01E254891CC9D4F3004D7FA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01E2548B1CC9D4F3004D7FA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		01E2548C1CC9D4F3004D7FA2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		01E2548E1CC9D4F3004D7FA2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		01E2548F1CC9D4F3004D7FA2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		01E254921CC9D4F3004D7FA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01E254941CC9D4F3004D7FA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01E254971CC9D4F3004D7FA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01E254991CC9D4F3004D7FA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01E2549E1CC9D4F3004D7FA2 /* XRKLinePlot-masterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XRKLinePlot-masterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01E254A21CC9D4F3004D7FA2 /* XRKLinePlot_masterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XRKLinePlot_masterTests.m; sourceTree = "<group>"; };
+		01E254A41CC9D4F3004D7FA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01E254A91CC9D4F3004D7FA2 /* XRKLinePlot-masterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XRKLinePlot-masterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01E254AD1CC9D4F3004D7FA2 /* XRKLinePlot_masterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XRKLinePlot_masterUITests.m; sourceTree = "<group>"; };
+		01E254AF1CC9D4F3004D7FA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01E254C21CC9D606004D7FA2 /* XRKLinePlotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XRKLinePlotView.h; path = Views/XRKLinePlotView.h; sourceTree = "<group>"; };
+		01E254C31CC9D606004D7FA2 /* XRKLinePlotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XRKLinePlotView.m; path = Views/XRKLinePlotView.m; sourceTree = "<group>"; };
+		01E254C51CC9D734004D7FA2 /* XRKLinePlotModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRKLinePlotModel.h; sourceTree = "<group>"; };
+		01E254C61CC9D734004D7FA2 /* XRKLinePlotModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRKLinePlotModel.m; sourceTree = "<group>"; };
+		01E254C81CC9D75D004D7FA2 /* ScrollKLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollKLineViewController.h; sourceTree = "<group>"; };
+		01E254C91CC9D75D004D7FA2 /* ScrollKLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollKLineViewController.m; sourceTree = "<group>"; };
+		01E254CC1CC9FAAC004D7FA2 /* NSString+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Common.h"; sourceTree = "<group>"; };
+		01E254CD1CC9FAAC004D7FA2 /* NSString+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Common.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01E254821CC9D4F3004D7FA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01E2549B1CC9D4F3004D7FA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01E254A61CC9D4F3004D7FA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01E2547C1CC9D4F3004D7FA2 = {
+			isa = PBXGroup;
+			children = (
+				01E254871CC9D4F3004D7FA2 /* XRKLinePlot-master */,
+				01E254A11CC9D4F3004D7FA2 /* XRKLinePlot-masterTests */,
+				01E254AC1CC9D4F3004D7FA2 /* XRKLinePlot-masterUITests */,
+				01E254861CC9D4F3004D7FA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01E254861CC9D4F3004D7FA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01E254851CC9D4F3004D7FA2 /* XRKLinePlot-master.app */,
+				01E2549E1CC9D4F3004D7FA2 /* XRKLinePlot-masterTests.xctest */,
+				01E254A91CC9D4F3004D7FA2 /* XRKLinePlot-masterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01E254871CC9D4F3004D7FA2 /* XRKLinePlot-master */ = {
+			isa = PBXGroup;
+			children = (
+				01E254BB1CC9D550004D7FA2 /* Classes */,
+				01E2548B1CC9D4F3004D7FA2 /* AppDelegate.h */,
+				01E2548C1CC9D4F3004D7FA2 /* AppDelegate.m */,
+				01E2548E1CC9D4F3004D7FA2 /* ViewController.h */,
+				01E2548F1CC9D4F3004D7FA2 /* ViewController.m */,
+				01E254911CC9D4F3004D7FA2 /* Main.storyboard */,
+				01E254941CC9D4F3004D7FA2 /* Assets.xcassets */,
+				01E254961CC9D4F3004D7FA2 /* LaunchScreen.storyboard */,
+				01E254991CC9D4F3004D7FA2 /* Info.plist */,
+				01E254881CC9D4F3004D7FA2 /* Supporting Files */,
+			);
+			path = "XRKLinePlot-master";
+			sourceTree = "<group>";
+		};
+		01E254881CC9D4F3004D7FA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01E254891CC9D4F3004D7FA2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01E254A11CC9D4F3004D7FA2 /* XRKLinePlot-masterTests */ = {
+			isa = PBXGroup;
+			children = (
+				01E254A21CC9D4F3004D7FA2 /* XRKLinePlot_masterTests.m */,
+				01E254A41CC9D4F3004D7FA2 /* Info.plist */,
+			);
+			path = "XRKLinePlot-masterTests";
+			sourceTree = "<group>";
+		};
+		01E254AC1CC9D4F3004D7FA2 /* XRKLinePlot-masterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01E254AD1CC9D4F3004D7FA2 /* XRKLinePlot_masterUITests.m */,
+				01E254AF1CC9D4F3004D7FA2 /* Info.plist */,
+			);
+			path = "XRKLinePlot-masterUITests";
+			sourceTree = "<group>";
+		};
+		01E254BB1CC9D550004D7FA2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				01E254CB1CC9FA7C004D7FA2 /* Common */,
+				01E254BE1CC9D577004D7FA2 /* Controllers */,
+				01E254BD1CC9D570004D7FA2 /* Models */,
+				01E254BC1CC9D560004D7FA2 /* Views */,
+				01E254C21CC9D606004D7FA2 /* XRKLinePlotView.h */,
+				01E254C31CC9D606004D7FA2 /* XRKLinePlotView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		01E254BC1CC9D560004D7FA2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		01E254BD1CC9D570004D7FA2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				01E254C51CC9D734004D7FA2 /* XRKLinePlotModel.h */,
+				01E254C61CC9D734004D7FA2 /* XRKLinePlotModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		01E254BE1CC9D577004D7FA2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				01E254C81CC9D75D004D7FA2 /* ScrollKLineViewController.h */,
+				01E254C91CC9D75D004D7FA2 /* ScrollKLineViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		01E254CB1CC9FA7C004D7FA2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				01E254CC1CC9FAAC004D7FA2 /* NSString+Common.h */,
+				01E254CD1CC9FAAC004D7FA2 /* NSString+Common.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01E254841CC9D4F3004D7FA2 /* XRKLinePlot-master */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01E254B21CC9D4F3004D7FA2 /* Build configuration list for PBXNativeTarget "XRKLinePlot-master" */;
+			buildPhases = (
+				01E254811CC9D4F3004D7FA2 /* Sources */,
+				01E254821CC9D4F3004D7FA2 /* Frameworks */,
+				01E254831CC9D4F3004D7FA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XRKLinePlot-master";
+			productName = "XRKLinePlot-master";
+			productReference = 01E254851CC9D4F3004D7FA2 /* XRKLinePlot-master.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01E2549D1CC9D4F3004D7FA2 /* XRKLinePlot-masterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01E254B51CC9D4F3004D7FA2 /* Build configuration list for PBXNativeTarget "XRKLinePlot-masterTests" */;
+			buildPhases = (
+				01E2549A1CC9D4F3004D7FA2 /* Sources */,
+				01E2549B1CC9D4F3004D7FA2 /* Frameworks */,
+				01E2549C1CC9D4F3004D7FA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01E254A01CC9D4F3004D7FA2 /* PBXTargetDependency */,
+			);
+			name = "XRKLinePlot-masterTests";
+			productName = "XRKLinePlot-masterTests";
+			productReference = 01E2549E1CC9D4F3004D7FA2 /* XRKLinePlot-masterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01E254A81CC9D4F3004D7FA2 /* XRKLinePlot-masterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01E254B81CC9D4F3004D7FA2 /* Build configuration list for PBXNativeTarget "XRKLinePlot-masterUITests" */;
+			buildPhases = (
+				01E254A51CC9D4F3004D7FA2 /* Sources */,
+				01E254A61CC9D4F3004D7FA2 /* Frameworks */,
+				01E254A71CC9D4F3004D7FA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01E254AB1CC9D4F3004D7FA2 /* PBXTargetDependency */,
+			);
+			name = "XRKLinePlot-masterUITests";
+			productName = "XRKLinePlot-masterUITests";
+			productReference = 01E254A91CC9D4F3004D7FA2 /* XRKLinePlot-masterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01E2547D1CC9D4F3004D7FA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "黯丶野火";
+				TargetAttributes = {
+					01E254841CC9D4F3004D7FA2 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = AYCJR8SJVG;
+					};
+					01E2549D1CC9D4F3004D7FA2 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 01E254841CC9D4F3004D7FA2;
+					};
+					01E254A81CC9D4F3004D7FA2 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 01E254841CC9D4F3004D7FA2;
+					};
+				};
+			};
+			buildConfigurationList = 01E254801CC9D4F3004D7FA2 /* Build configuration list for PBXProject "XRKLinePlot-master" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01E2547C1CC9D4F3004D7FA2;
+			productRefGroup = 01E254861CC9D4F3004D7FA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01E254841CC9D4F3004D7FA2 /* XRKLinePlot-master */,
+				01E2549D1CC9D4F3004D7FA2 /* XRKLinePlot-masterTests */,
+				01E254A81CC9D4F3004D7FA2 /* XRKLinePlot-masterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01E254831CC9D4F3004D7FA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E254981CC9D4F3004D7FA2 /* LaunchScreen.storyboard in Resources */,
+				01E254951CC9D4F3004D7FA2 /* Assets.xcassets in Resources */,
+				01E254931CC9D4F3004D7FA2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01E2549C1CC9D4F3004D7FA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01E254A71CC9D4F3004D7FA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01E254811CC9D4F3004D7FA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E254901CC9D4F3004D7FA2 /* ViewController.m in Sources */,
+				01E254C71CC9D734004D7FA2 /* XRKLinePlotModel.m in Sources */,
+				01E254CE1CC9FAAC004D7FA2 /* NSString+Common.m in Sources */,
+				01E2548D1CC9D4F3004D7FA2 /* AppDelegate.m in Sources */,
+				01E254CA1CC9D75D004D7FA2 /* ScrollKLineViewController.m in Sources */,
+				01E2548A1CC9D4F3004D7FA2 /* main.m in Sources */,
+				01E254C41CC9D606004D7FA2 /* XRKLinePlotView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01E2549A1CC9D4F3004D7FA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E254A31CC9D4F3004D7FA2 /* XRKLinePlot_masterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01E254A51CC9D4F3004D7FA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E254AE1CC9D4F3004D7FA2 /* XRKLinePlot_masterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01E254A01CC9D4F3004D7FA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01E254841CC9D4F3004D7FA2 /* XRKLinePlot-master */;
+			targetProxy = 01E2549F1CC9D4F3004D7FA2 /* PBXContainerItemProxy */;
+		};
+		01E254AB1CC9D4F3004D7FA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01E254841CC9D4F3004D7FA2 /* XRKLinePlot-master */;
+			targetProxy = 01E254AA1CC9D4F3004D7FA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01E254911CC9D4F3004D7FA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01E254921CC9D4F3004D7FA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01E254961CC9D4F3004D7FA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01E254971CC9D4F3004D7FA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01E254B01CC9D4F3004D7FA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		01E254B11CC9D4F3004D7FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01E254B31CC9D4F3004D7FA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "XRKLinePlot-master/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kkguan.XRKLinePlot-master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01E254B41CC9D4F3004D7FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "XRKLinePlot-master/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kkguan.XRKLinePlot-master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		01E254B61CC9D4F3004D7FA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "XRKLinePlot-masterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kkguan.XRKLinePlot-masterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XRKLinePlot-master.app/XRKLinePlot-master";
+			};
+			name = Debug;
+		};
+		01E254B71CC9D4F3004D7FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "XRKLinePlot-masterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kkguan.XRKLinePlot-masterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XRKLinePlot-master.app/XRKLinePlot-master";
+			};
+			name = Release;
+		};
+		01E254B91CC9D4F3004D7FA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "XRKLinePlot-masterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kkguan.XRKLinePlot-masterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "XRKLinePlot-master";
+			};
+			name = Debug;
+		};
+		01E254BA1CC9D4F3004D7FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "XRKLinePlot-masterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kkguan.XRKLinePlot-masterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "XRKLinePlot-master";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01E254801CC9D4F3004D7FA2 /* Build configuration list for PBXProject "XRKLinePlot-master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01E254B01CC9D4F3004D7FA2 /* Debug */,
+				01E254B11CC9D4F3004D7FA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01E254B21CC9D4F3004D7FA2 /* Build configuration list for PBXNativeTarget "XRKLinePlot-master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01E254B31CC9D4F3004D7FA2 /* Debug */,
+				01E254B41CC9D4F3004D7FA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		01E254B51CC9D4F3004D7FA2 /* Build configuration list for PBXNativeTarget "XRKLinePlot-masterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01E254B61CC9D4F3004D7FA2 /* Debug */,
+				01E254B71CC9D4F3004D7FA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		01E254B81CC9D4F3004D7FA2 /* Build configuration list for PBXNativeTarget "XRKLinePlot-masterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01E254B91CC9D4F3004D7FA2 /* Debug */,
+				01E254BA1CC9D4F3004D7FA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01E2547D1CC9D4F3004D7FA2 /* Project object */;
+}

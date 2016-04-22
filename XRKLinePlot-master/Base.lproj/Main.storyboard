@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="keX-9o-pJd">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--图表-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ScrollKLineViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bordered" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Fej-VR-DkK">
+                                <rect key="frame" x="40" y="94" width="240" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="KWH-PR-FUy"/>
+                                    <constraint firstAttribute="height" constant="30" id="nIZ-ns-q7q"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="一周"/>
+                                    <segment title="一个月"/>
+                                    <segment title="三个月"/>
+                                </segments>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="segmentValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="qvJ-4F-akj"/>
+                                </connections>
+                            </segmentedControl>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fxC-AZ-miO">
+                                <rect key="frame" x="0.0" y="149" width="320" height="300"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="ouu-Kp-Xju"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fxC-AZ-miO" firstAttribute="top" secondItem="Fej-VR-DkK" secondAttribute="bottom" constant="25" id="2sK-6C-DkD"/>
+                            <constraint firstItem="Fej-VR-DkK" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="94" id="80z-Dg-NA6"/>
+                            <constraint firstItem="Fej-VR-DkK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DUc-rJ-4W2"/>
+                            <constraint firstItem="fxC-AZ-miO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="dGS-oq-bJ8"/>
+                            <constraint firstAttribute="trailing" secondItem="fxC-AZ-miO" secondAttribute="trailing" id="kNZ-fa-JYi"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="图表" id="lCa-OO-weM"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="myScrollView" destination="fxC-AZ-miO" id="rAl-5F-51S"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="997" y="407"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="C6v-ZD-t9A">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="keX-9o-pJd" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="g7q-eJ-ysJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="uIZ-R5-en1"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T93-ln-Yqi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="398" y="407"/>
+        </scene>
+    </scenes>
+</document>
