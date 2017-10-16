@@ -5,7 +5,7 @@
 ![](https://github.com/hanzhuzi/XRKLinePlot-master/blob/master/XRKLinePlot-master/Snaps/Simulator%20Screen%20Shot%202016年4月22日%20下午4.30.25.png)
 ![](https://github.com/hanzhuzi/XRKLinePlot-master/blob/master/XRKLinePlot-master/Snaps/Simulator%20Screen%20Shot%202016年4月22日%20下午4.30.34.png)
 
-####使用
+#### 使用
 ```Objective-C
     
     XRKLinePlotView * plotView = [[XRKLinePlotView alloc] initWithFrame:CGRectMake(0, 0, 320, 300)];
